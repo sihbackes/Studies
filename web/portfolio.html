@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/portfolio.css">
   <link rel="stylesheet" href="css/responsivo.css">
+  <script>document.documentElement.classList.add("js");</script>
 
 </head>
 
@@ -30,23 +31,39 @@
   </header>
   <section class="introducao-interna interna_portfolio">
     <div class="container">
-      <h1>Portfólio</h1>
-      <p>Conheça os projetos que amamos mostrar</p>
+      <h1 data-anime="400" class="fadeIndown">Portfólio</h1>
+      <p data-anime="800" class="fadeIndown">Conheça os projetos que amamos mostrar</p>
     </div>
   </section>
 
-  <section class="container">
+  <section class="container fadeIndown" data-slide="quote" data-anime="1200">
     <blockquote class="quote_cliente">
-      <p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial da formulação da gestão inovadora da qual fazemos parte." </p>
-      <cite>Barbara Moss</cite>
+      <p>"Every time you come around, you know I can't say no
+        Every time the Sun goes down, I let you take control
+        I can feel the paradise before my world implodes
+        And tonight had something wonderful." </p>
+      <cite>Ed Sheeran</cite>
+    </blockquote>
+    <blockquote class="quote_cliente">
+      <p>"Give me a day or two To think of something clever To write myself a letter To tell me what to do Do you read my interviews? Or do you skip my avenue? When you said you were passing through Was I even on your way?." </p>
+      <cite>Billie Eilish</cite>
+    </blockquote>
+    <blockquote class="quote_cliente">
+      <p>"Kiss me hard before you go Summertime sadness I just wanted you to know That, baby, you’re the best I got my red dress on tonight Dancing in the dark in the pale moonlight Done my hair up real big, beauty queen style High heels off, I’m feeling alive" </p>
+      <cite>Lana Del Rey</cite>
     </blockquote>
   </section>
 
   <section class="portfolio">
-    <div class="container">
+    <div class="container" data-slide="portfolio">
       <ul class="portfolio_lista">
         <li class="grid-8"><img src="img/portfolio/retrocortada.png" alt="Bicicleta Retro"></li>
         <li class="grid-8"><img src="img/portfolio/passeiocortada.png" alt="Bicileta Passeio"></li>
+        <li class="grid-16"><img src="img/portfolio/esportecortada.png" alt="Bicileta Esporte"></li>
+      </ul>
+      <ul class="portfolio_lista">
+        <li class="grid-8"><img src="img/portfolio/passeiocortada.png" alt="Bicileta Passeio"></li>
+        <li class="grid-8"><img src="img/portfolio/retrocortada.png" alt="Bicicleta Retro"></li>
         <li class="grid-16"><img src="img/portfolio/esportecortada.png" alt="Bicileta Esporte"></li>
       </ul>
 
@@ -94,6 +111,9 @@
       </div>
     </div>
   </footer>
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/simple-slide.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

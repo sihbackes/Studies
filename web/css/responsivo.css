@@ -60,7 +60,6 @@
     float: left;
   }
   .header_menu ul li a:hover {
-    transition: 2ms;
     border-color: #fff;
   }
 
