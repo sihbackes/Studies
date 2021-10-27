@@ -1,0 +1,31 @@
+.background {
+  background-color: rgb(54, 52, 50);
+  background-size: cover;
+}
+
+.title {
+  font-family: 'Fjalla One', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+}
+a {
+  color: rgb(230, 100, 241);
+}
